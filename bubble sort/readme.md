@@ -1,0 +1,3 @@
+Bubble sort is a simple algorithms that works in O(n^2) time. It consists of n rounds, and on each round, it iterates through the elements of the array. Whenever two consecutive elements are found that are in wrong order, the algorithms swaps them.
+This is an example of a sorting algorithm that always swaps consecutive elements in the array.
+In the case of nearly sorted data, bubble sort takes O(n) time, but requires at least 2 passes through the data (whereas insertion sort requires something more like 1 pass).
