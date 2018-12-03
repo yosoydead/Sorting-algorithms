@@ -7,3 +7,4 @@ with the value in the rst position of the sequence. The second smallest value
 is then found and swapped with the value in the second position. This process
 continues positioning each successive value by selecting them from those not yet
 sorted and swapping with the values in the respective positions.
+This works with negative numbers too.
