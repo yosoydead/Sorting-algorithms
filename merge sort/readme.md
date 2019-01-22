@@ -34,3 +34,4 @@
             - **merge** => **[1,9]**
         - c) it is time to **merge** **a)** and **b) resulting in [1,9,72,73]**
     * 3. now it is time to **merge** the final two arrays (**1.** and **2.**) back together **resulting in [1,9,10,24,72,73,76]**
+* Complexity of **O(n log n)**. This relationship is given by the fact that this algorithm has to do **O(n)** comparisons IE it compares each and every element. The **O(log n)** is given by the number of splits the algorithm has to do to get to an array with a single element.
