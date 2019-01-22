@@ -16,3 +16,7 @@
         - if the pivot is greater than the current element, increment the pivot index variable and then swap the current element with the element at the pivot index
         - at the very end, swap the starting element with the pivot index
         - return the pivot index
+* Quick sort pseudocode:
+    - call the pivot helper on the array
+    - when the helper returns the pivot index, recursively call the pivot helper on the subarray to the left of that index and the subarray to the right of that index
+    - your base case occurs when you consider a subarray with less than 2 elements

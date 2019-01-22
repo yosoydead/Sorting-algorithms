@@ -7,7 +7,7 @@ def swap(array, i, j):
 # define the function which takes as argument an array, a start index and an ending one
 #end should be the length of the input array
 #in python, default arguments have to be after all normal arguments
-def partition(array, end, start = 0):
+def partition(array, start, end):
 
     #define the pivot variable
     pivot = array[start]
@@ -57,7 +57,7 @@ array = [4,8,2,1,5,7,6,3]
     now, every item less than 4 are to its left and every item bigger than 4
     are to its right
 '''
-print(partition(array, len(array)))
+print(partition(array, 0, len(array)))
 
         
 
