@@ -7,4 +7,4 @@ Sorts:
 4. 4) [ ] Shell Sort
 5. 5) [x] Merge Sort
 6. 6) [ ] Heap Sort
-7. 7) [ ] Quick Sort
+7. 7) [x] Quick Sort
