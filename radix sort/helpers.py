@@ -20,16 +20,35 @@ def getDigit(num, place):
     #after the division, modulo the remainder by 10
     #and that should be the digit you want
 
+#i think this is pretty self explainatory
 def digitCount(num):
     if num == 0:
         return 1
     
+    #how many digits are there so far
     count = 0
+
     while num != 0:
         count = count +1
         num = num // 10
 
     return count
 
-print(digitCount(0))
+def mostDigits(nums):
+    maxdigits = 0
+
+    for i in range(0, len(nums)):
+        #compute the digit count of the current list item
+        currentDigits = digitCount(nums[i])
+
+        #if the current digit count is > than the maximum found so far
+        #update the maximum digits found so far
+        if currentDigits > maxdigits:
+            maxdigits = currentDigits
+
+    return maxdigits
+
+
+#print(mostDigits([1,12,1,35,800,45,9000,90000,45454545]))
+#print(digitCount(0))
 #print(getDigit(12345, 12))

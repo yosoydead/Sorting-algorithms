@@ -13,3 +13,4 @@
     * getDigit(num, place) -> return the digit in num at the given place/position value (IE **getDigit(12345, 1) returns 4**) **you start counting from right to left**
     * figure out how many digits a number has because you need to know how many times you have to place things into buckets -> **find which number has to most digis**:
         - digitCount(num) -> returns the number of digits in *num*
+        - mostDigits(nums) -> given an array of numbers, return the number of digits in the largest numbers in the list **it uses digitCount**
