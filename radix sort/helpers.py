@@ -48,6 +48,18 @@ def mostDigits(nums):
 
     return maxdigits
 
+#did not know how to concatinate every item from the input array
+#which contains multiple lists, so i defined my own function
+#it may not be optimal but it does the job
+def concat(array):
+    result = []
+
+    for i in range(0, len(array)):
+        for item in array[i]:
+            result.append(item)
+    
+    return result
+
 
 #print(mostDigits([1,12,1,35,800,45,9000,90000,45454545]))
 #print(digitCount(0))

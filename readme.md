@@ -8,3 +8,4 @@ Sorts:
 5. 5) [x] Merge Sort
 6. 6) [ ] Heap Sort
 7. 7) [x] Quick Sort
+8. 8) [x] Radix Sort
