@@ -20,5 +20,16 @@ def getDigit(num, place):
     #after the division, modulo the remainder by 10
     #and that should be the digit you want
 
+def digitCount(num):
+    if num == 0:
+        return 1
+    
+    count = 0
+    while num != 0:
+        count = count +1
+        num = num // 10
 
-print(getDigit(12345, 12))
+    return count
+
+print(digitCount(0))
+#print(getDigit(12345, 12))

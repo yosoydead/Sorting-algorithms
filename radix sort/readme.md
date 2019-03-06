@@ -11,3 +11,5 @@
     * at the end, the numbers should be sorted
 * For this algorithm, you need some helper methods:
     * getDigit(num, place) -> return the digit in num at the given place/position value (IE **getDigit(12345, 1) returns 4**) **you start counting from right to left**
+    * figure out how many digits a number has because you need to know how many times you have to place things into buckets -> **find which number has to most digis**:
+        - digitCount(num) -> returns the number of digits in *num*
